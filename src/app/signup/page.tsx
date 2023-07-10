@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-export default function Contact() {
+export default function SignupPage() {
   useEffect(() => {
     fetch('http://localhost:8080/signup')
       .then(response => response.text())
